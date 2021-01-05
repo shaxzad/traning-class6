@@ -1,0 +1,1 @@
+# traning-class6
