@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 1%;
+}
+.col2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#div1-h1 {
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 60px;
+    color: white;
+}
+#div1-h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    color: white;
+}
+.div1-p {
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#div1-h3 {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 40px;
+    color: white;
+}
+#div1-h4 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: white;
+}
+.div-2 {
+    background-color: yellow;
+    padding: 30px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    width: 380px;
+
+}
+
+.div-2 input,textarea {
+    padding: 8px;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn{
+	padding: 8px 25px;
+	background-color: black;
+	color: white;
+	margin-top: 8px;
+	margin-top: 10px;
+
+}
+
+#sec-a {
+    background-image: url(./assets/images/tower_building_architecture_196001_1920x1080.jpg);
+    padding: 50px 0px;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    
+    
+}
+.sec-b {
+    display: grid;
+    background-image: url(./assets/images/cool.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    text-decoration-color: red;
+
+}
+.set-1 {
+    width: 100%;
+
+}
+
+.sec-c {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/RAZER.jpg);
+    height: 100vh;
+    text-decoration: none;
+    color: darkblue;
+
+}
+.sec-d {
+    text-align: center;
+    background-image: url(./assets/images/fuk\ u\ lookin\ at.jpg);
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkblue;
+}
+.sec-e {
+    background-image: url(./assets/images/NiGga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows:20% 20%  20%  20% ;
+    text-decoration: none;
+    color: darkgreen;
+}
+.ul-1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    list-style: none;
+    height: 100vh;
+}
