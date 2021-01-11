@@ -156,5 +156,6 @@ h1 {
 .divv:hover{
     cursor: grab;
     text-transform: capitalize;
+    background-color: blueviolet;
 }
 
