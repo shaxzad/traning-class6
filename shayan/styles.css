@@ -61,61 +61,88 @@ body{
 }
 
 #sec-a {
-    background-image: url(./assets/images/tower_building_architecture_196001_1920x1080.jpg);
+    background-image: url(./assets/sample\ 1.jfif);
     padding: 50px 0px;
     background-size: cover;
     background-position: center;
     width: 80%;
     margin: auto;
     height: 100vh;
-    
-    
 }
+
+
 .sec-b {
     display: grid;
-    background-image: url(./assets/images/cool.jpg);
+    background-image: url(./assets/service-1.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     height: 100vh;
     width: 100%;
     text-align: center;
-    text-decoration-color: red;
+    text-decoration-color: black;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-top: 60px;
+    
+    
 
 }
+.btn-2 {
+    padding: 8px 25px;
+	background-color: gray;
+	color: white;
+	margin-top: 8px;
+    margin-top: 10px;
+    
+
+}
+
 .set-1 {
     width: 100%;
 
 }
 
 .sec-c {
+    background-image: url(./assets/taxi-1.jpg);
+    background-position: content;
     text-align: center;
+    font-size: 15px;
     background-repeat: no-repeat;
-    background-image: url(./assets/images/RAZER.jpg);
     height: 100vh;
     text-decoration: none;
-    color: darkblue;
+    color: black;
+    /* width: 100%; */
+    margin: auto;
+    padding: 30px;
+    padding-top: 100px;
+    width: 10000000px;
 
+    
 }
+
 .sec-d {
-    text-align: center;
-    background-image: url(./assets/images/fuk\ u\ lookin\ at.jpg);
+    background-image: url(./assets/united-kingdom-.jpg);
+    text-align: center; 
     background-repeat: no-repeat;
     text-transform: uppercase;
     text-decoration: none;
-    color: darkblue;
+    color: black;
+  
 }
 .sec-e {
-    background-image: url(./assets/images/NiGga.jpg);
+    background-image: url(./assets/traffic-691870_1280.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     display: grid;
     grid-template-columns: ;
     grid-template-rows:20% 20%  20%  20% ;
     text-decoration: none;
-    color: darkgreen;
+    color: white;
+    font-size: 20px;
 }
+    
 .ul-1 {
     width: 100%;
     display: grid;
