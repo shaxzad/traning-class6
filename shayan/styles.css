@@ -2,6 +2,9 @@ body{
     margin: 0%;
     padding: 1%;
 }
+.container {
+    margin: 0px 70px;
+}
 .col2 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -9,68 +12,73 @@ body{
 #div1-h1 {
     font-size: 40px;
     padding-left: 40px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     color: white;
 }
 #div1-h2 {
     font-size: 40px;
     margin-left: 40px;
     color: white;
+    /* padding-top: 10px; */
 }
 .div1-p {
     color: white;
     font-size: 15px;
     width: 30%;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     margin-left: 40px;
 }
 #div1-h3 {
     font-size: 25px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-left: 40px;
     color: white;
 }
 #div1-h4 {
     font-size: 35px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 40px;
     color: white;
 }
 .div-2 {
-    background-color: yellow;
+    background-color: orange;
     padding: 30px;
     padding-top: 0px;
     box-sizing: border-box;
     width: 380px;
-
+    padding-right: 50px;
+    margin-left: 15em;
+    opacity: 0.8;
 }
-
 .div-2 input,textarea {
     padding: 8px;
     margin: 15px 0px;
     width: 100%;
     box-sizing: border-box;
 }
-.btn{
+.div-2 input:focus{
+    border: none;
+}
+.btn-1{
 	padding: 8px 25px;
-	background-color: black;
+	background-color: gray;
 	color: white;
 	margin-top: 8px;
 	margin-top: 10px;
-
 }
-
+.btn:hover {
+    background-color: rgb(97, 84, 84);
+    color: red;
+}
 #sec-a {
-    background-image: url(./assets/sample\ 1.jfif);
+    background-image: url(./assets/slide1.jpg);
     padding: 50px 0px;
     background-size: cover;
     background-position: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     height: 100vh;
 }
-
-
 .sec-b {
     display: grid;
     background-image: url(./assets/service-1.png);
@@ -82,52 +90,40 @@ body{
     text-decoration-color: black;
     font-size: 20px;
     padding-left: 45px;
-    padding-top: 60px;
-    
-    
-
+    padding-top: 60px;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;      
 }
 .btn-2 {
     padding: 8px 25px;
 	background-color: gray;
 	color: white;
 	margin-top: 8px;
-    margin-top: 10px;
-    
-
+    margin-top: 10px;    
 }
-
 .set-1 {
     width: 100%;
-
 }
-
 .sec-c {
-    background-image: url(./assets/taxi-1.jpg);
-    background-position: content;
+    background-image: url(./assets/why.jpg);
+    background-position: cover;
     text-align: center;
     font-size: 15px;
     background-repeat: no-repeat;
     height: 100vh;
     text-decoration: none;
-    color: black;
-    /* width: 100%; */
-    margin: auto;
-    padding: 30px;
-    padding-top: 100px;
-    width: 10000000px;
-
-    
+    color: rgb(255, 255, 255);
+    width: 100%; 
+    font-family: Lucida;        
 }
-
 .sec-d {
     background-image: url(./assets/united-kingdom-.jpg);
     text-align: center; 
-    background-repeat: no-repeat;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
-  
+    color: black; 
+    font-family: Lucida;
+    width: 100%;
+    background-color: whitesmoke;
 }
 .sec-e {
     background-image: url(./assets/traffic-691870_1280.jpg) ;
@@ -141,12 +137,34 @@ body{
     text-decoration: none;
     color: white;
     font-size: 20px;
-}
-    
-.ul-1 {
+}   
+.ul-one {
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
     list-style: none;
-    height: 100vh;
+    height: 20vh;
+}
+.parent-boxs {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr; 
+    font-size: 15px;
+    font-family: Lucida Sans Unicode;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+.parent-boxs img {
+    width: 100px; 
+    height: 95px;
+    padding-top: 250px;
+}
+.grid-1 {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr; 
+    width: 100%;
+}
+
+.grid-1 img{
+    width: 60%;
+    height: 500px;
 }
