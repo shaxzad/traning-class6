@@ -12,6 +12,7 @@ body{
     margin-left: 25px;
     font-size: 08mm;
     cursor: grabbing;
+    opacity: 0.5;
 }
 .menu::after{
     content: "\f063";
@@ -23,7 +24,7 @@ body{
     grid-template-columns: 100px auto;
     grid-gap: 450px;
    margin-bottom: 0px;
-   height: 20px;
+   height: 60px;
 }
 
 .container ul{
@@ -39,7 +40,6 @@ body{
 }
 
 a:hover{
-    background-color: rgba(9, 124, 139, 0.39);
     font-size: 18px;
     transition: all ease-in 1.5s;
     padding: 15px 15px;
@@ -47,6 +47,7 @@ a:hover{
    
 }
 .image-body{
+    
     background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
     margin: auto;
     height: 625px;
@@ -56,21 +57,30 @@ a:hover{
     font-size: 30px;
     text-transform: uppercase;
 }
-h1 {
-    padding-left: 120px;
-    padding-top: 200px;
+.image-body h1 {
+    margin-left: 120px;
+    margin-top: 200px;
+    display: inline-block;
+
 }
 .image-body ul {
+    height: 200px;
     display: grid;
-    grid-template-columns: 126px 188px 99px;
+    grid-template-columns: 126px 196px 99px;
     list-style-type: none;
     float: right;
     margin-right: 50px;
-    margin-bottom: 200px;
+    margin-top: 208px;
+    
+}
+.image-body div {
+    display: inline;
+    /* margin-bottom: 400px; */
 }
 .image-body a{
     color: ghostwhite;
     text-decoration: none;
+
 }
 .image-body a::after{
     content: "/";
@@ -78,12 +88,11 @@ h1 {
 }
 .content-table{
     margin: auto;
-    width: 63.007%;
+    width: 73.007%;
     display: grid;
     grid-template-rows: repeat(8 , auto);
     border-collapse: collapse;
     border-bottom: 2px solid rgba(0, 0, 0, 0.795) ;
-    padding: 0px 0px;
 }
 .content-table input{
     width: 83px;
@@ -93,20 +102,22 @@ h1 {
     background-color: black;
     color: ghostwhite;
     width: 20%;
+
 }
 .content-table button{
     background-color: black;
     color: ghostwhite;
     float: right;
     margin-right: 02px;
-    border: indigo 2px solid;
     font-weight: .5;
 }
 .marker{
-    margin-right: 292px;
+    margin-right: 186px;
     margin-top: 09px;
     float: right;
-
+}
+.marker-even:hover{
+    outline: blanchedalmond 2px solid;
 }
 .marker-even{
     background-color: black;
@@ -126,6 +137,7 @@ h1 {
     border-right: none;
     padding-top: 9px;
     text-align: center;
+    color: ghostwhite;
 }
 .news{
     margin-top: 65px;
@@ -154,12 +166,14 @@ h1 {
     margin-top: 30px;
     font-size: 12mm;
     column-gap: 40px;
+    opacity: 0.5;
     /* -webkit-filter: blur(.5px);  */
     /* filter: blur(5px); */
 }
 .footer{
     /* margin: auto; */
     margin-left: 452px;
+    color: ghostwhite;
 }
 .marker-third:hover{
     cursor: grab;
