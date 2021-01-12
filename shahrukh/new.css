@@ -8,9 +8,10 @@ body{
     font-size: 11mm;
 }
 .head:hover{
-    margin-top: 11px;
-    margin-left: 50px;
+    margin-top: 5px;
+    margin-left: 25px;
     font-size: 08mm;
+    cursor: grabbing;
 }
 .menu::after{
     content: "\f063";
