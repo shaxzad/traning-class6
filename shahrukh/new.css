@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(209, 220, 224);
+    background-color:gold ;
 }
 .head::before{
     font-family: "Font Awesome 5 Free"; 
@@ -156,6 +156,11 @@ h1 {
 .divv:hover{
     cursor: grab;
     text-transform: capitalize;
+    outline: blanchedalmond 2px solid;
+    outline-offset: 5px ;
+    /* background-color: blueviolet; */
+}
+.divv:focus{
     background-color: blueviolet;
 }
 
