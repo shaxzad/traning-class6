@@ -2,7 +2,7 @@
     background-image: url(./pexels-boonkong-boonpeng-1134176\ \(2\).jpg);
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     margin: 50px;
     
 }
@@ -113,8 +113,81 @@ ul li{
 body{
     margin: 0px;
     padding: 0px;
-}    
-
-
-
+}  
+.image  img{
+    width: 40vh;
+    height: 40vh;
     
+}  
+.image{
+    
+    grid-template-columns: 1fr 1fr;
+    
+   
+}
+.image1 img{
+    width: 40vh;
+    height: 40vh;
+    margin-left: 12px;
+}   
+.image {
+    grid-template-columns: 1fr 1fr;
+    shape-image-threshold: inherit;
+    padding-left: 12px;
+}
+.sec7{
+    background-color: black;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 93%;
+    margin-left: 44px
+}
+.A2 {
+   color: white;
+   text-align: center;
+   margin-top: 32px;
+}
+.A2 button {
+    
+    height: 3rem;
+    background-color: rgb(255, 1, 44);
+    width: 47vh;
+    
+    
+}
+.A2 strong{
+    
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5em;
+}
+.A2 button a{
+    text-decoration: none;
+    color: white;
+
+}
+.A2 p{
+    margin-top: 6em;
+    font-size: 1rem;
+}     
+.A2 h1{
+    
+    font-size: 2rem;
+} 
+.A3{
+    margin-top: 5em ;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+    margin-top: 0px;
+    width: 92.8%;
+}
+.A3 img{
+    width: 100%;
+}
+.A3 strong{
+    padding-top: 10px;
+}
