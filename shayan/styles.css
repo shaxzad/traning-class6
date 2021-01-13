@@ -1,9 +1,15 @@
 body{
     margin: 0%;
-    padding: 1%;
+    padding: 0%;
+}
+h1 {
+    margin: 0px;
 }
 .container {
     margin: 0px 70px;
+}
+.pos-r {
+    position: relative;
 }
 .col2 {
     display: grid;
@@ -12,43 +18,41 @@ body{
 #div1-h1 {
     font-size: 40px;
     padding-left: 40px;
-    /* padding-top: 60px; */
     color: white;
 }
 #div1-h2 {
     font-size: 40px;
     margin-left: 40px;
     color: white;
-    /* padding-top: 10px; */
 }
 .div1-p {
     color: white;
     font-size: 15px;
     width: 30%;
-    /* margin-top: 25px; */
     margin-left: 40px;
 }
 #div1-h3 {
     font-size: 25px;
-    /* padding-top: 25px; */
     padding-left: 40px;
     color: white;
 }
 #div1-h4 {
     font-size: 35px;
-    /* padding-top: 10px; */
     padding-left: 40px;
     color: white;
 }
 .div-2 {
-    background-color: orange;
+    background-color:#ffd63a;
     padding: 30px;
     padding-top: 0px;
     box-sizing: border-box;
     width: 380px;
     padding-right: 50px;
     margin-left: 15em;
-    opacity: 0.8;
+    font font-family:'Raleway-Light';
+    color: black;
+    text-transform: uppercase;
+
 }
 .div-2 input,textarea {
     padding: 8px;
@@ -61,14 +65,19 @@ body{
 }
 .btn-1{
 	padding: 8px 25px;
-	background-color: gray;
+	background-color:#303030;
 	color: white;
 	margin-top: 8px;
 	margin-top: 10px;
 }
 .btn:hover {
-    background-color: rgb(97, 84, 84);
-    color: red;
+    background-color: #ffd63a;
+    color: white;
+}
+.btn-2:hover {
+    background-color: transparent;
+    color: #333;
+
 }
 #sec-a {
     background-image: url(./assets/slide1.jpg);
@@ -83,19 +92,19 @@ body{
     display: grid;
     background-image: url(./assets/service-1.png);
     background-repeat: no-repeat;
-    background-position: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     text-align: center;
     text-decoration-color: black;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 45px;
     padding-top: 60px;  
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;      
+    font-family: 'Raleway-Light';      
 }
 .btn-2 {
     padding: 8px 25px;
-	background-color: gray;
+    background-color: #303030;
+    /* border: 1px solid #303030; */
 	color: white;
 	margin-top: 8px;
     margin-top: 10px;    
@@ -105,25 +114,27 @@ body{
 }
 .sec-c {
     background-image: url(./assets/why.jpg);
-    background-position: cover;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     background-repeat: no-repeat;
-    height: 100vh;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    width: 100%; 
-    font-family: Lucida;        
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    color:whitesmoke;
+    width: 100%;
+    padding: 90px 0px;
+    font-family: 'Raleway-Light';        
 }
 .sec-d {
+    padding: 90px 0px;
     background-image: url(./assets/united-kingdom-.jpg);
-    text-align: center; 
-    text-transform: uppercase;
     text-decoration: none;
     color: black; 
-    font-family: Lucida;
+    font-family: 'Raleway-Light';
     width: 100%;
-    background-color: whitesmoke;
+    padding-top: -10px;
+}
+.sec-d .gallery-title {
+    text-align: center;
 }
 .sec-e {
     background-image: url(./assets/traffic-691870_1280.jpg) ;
@@ -135,8 +146,9 @@ body{
     grid-template-columns: ;
     grid-template-rows:20% 20%  20%  20% ;
     text-decoration: none;
-    color: white;
+    /* background-color: rgb(117, 115, 115); */
     font-size: 20px;
+    /* color: whitesmoke; */
 }   
 .ul-one {
     width: 100%;
@@ -149,14 +161,16 @@ body{
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr; 
     font-size: 15px;
-    font-family: Lucida Sans Unicode;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-inline-start: 1px;
     margin-inline-end: 1px;
 }
 .parent-boxs img {
     width: 100px; 
     height: 95px;
-    padding-top: 250px;
+}
+.parent-boxs .box {
+    margin-top: 50px;
 }
 .grid-1 {
     display: grid;
@@ -165,6 +179,30 @@ body{
 }
 
 .grid-1 img{
-    width: 60%;
-    height: 500px;
+    width: 98%;
+    height: 450px;
 }
+.car {
+    position: absolute;
+    right: 5px;
+    top: 22px;
+}
+.map {
+    position: absolute;
+    right: 5px;
+    top: 34%;
+}
+.bed {
+    position: absolute;
+    right: 5px;
+    top: 44%;
+}
+.envelope {
+    position: absolute;
+    right: 5px;
+    top: 20%;
+}
+.sec-c .img {
+    opacity: 1;
+}
+
