@@ -19,22 +19,30 @@ h1 {
     font-size: 40px;
     padding-left: 40px;
     color: white;
+    font-family: 'Raleway', sans-serif;
+
 }
 #div1-h2 {
     font-size: 40px;
     margin-left: 40px;
     color: white;
+    font-family: 'Raleway', sans-serif;
+
 }
 .div1-p {
     color: white;
     font-size: 15px;
     width: 30%;
     margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+
 }
 #div1-h3 {
     font-size: 25px;
     padding-left: 40px;
     color: white;
+    font-family: 'Raleway', sans-serif;
+
 }
 #div1-h4 {
     font-size: 35px;
@@ -46,12 +54,14 @@ h1 {
     padding: 30px;
     padding-top: 0px;
     box-sizing: border-box;
-    width: 380px;
+    width: 399px;
     padding-right: 50px;
     margin-left: 15em;
-    font font-family:'Raleway-Light';
     color: black;
     text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+
+
 
 }
 .div-2 input,textarea {
@@ -99,7 +109,8 @@ h1 {
     font-size: 15px;
     padding-left: 45px;
     padding-top: 60px;  
-    font-family: 'Raleway-Light';      
+    font-family: 'Raleway', sans-serif;
+    
 }
 .btn-2 {
     padding: 8px 25px;
@@ -122,14 +133,15 @@ h1 {
     color:whitesmoke;
     width: 100%;
     padding: 90px 0px;
-    font-family: 'Raleway-Light';        
+    font-family: 'Raleway', sans-serif;
+       
 }
 .sec-d {
     padding: 90px 0px;
     background-image: url(./assets/united-kingdom-.jpg);
     text-decoration: none;
     color: black; 
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     padding-top: -10px;
 }
@@ -137,7 +149,7 @@ h1 {
     text-align: center;
 }
 .sec-e {
-    background-image: url(./assets/traffic-691870_1280.jpg) ;
+    -image: url(./assets/traffic-691870_1280.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -149,6 +161,7 @@ h1 {
     /* background-color: rgb(117, 115, 115); */
     font-size: 20px;
     /* color: whitesmoke; */
+    font-family: 'Raleway', sans-serif;
 }   
 .ul-one {
     width: 100%;
@@ -161,7 +174,7 @@ h1 {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr; 
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-inline-start: 1px;
     margin-inline-end: 1px;
 }
@@ -202,7 +215,11 @@ h1 {
     right: 5px;
     top: 20%;
 }
-.sec-c .img {
-    opacity: 1;
-}
-
+ .sec-f {
+     font-family: 'Raleway', sans-serif;
+     background-color:  #333;
+     display: flex;
+     /* justify-content: center; */
+     color: white;
+     display: inline-flex;
+ }
