@@ -1,7 +1,9 @@
+body {
+    margin: 0px;
+}
 h1{
     text-transform: uppercase;
     text-align: center;
-    padding-top: 14px;
     padding-bottom: 31px;
 }
 h3{
@@ -9,19 +11,22 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+.container-fluid {
+    margin: 0px;
+}
 .container{
-    background-image: url(./joker-wallpaper.jpg) ;
+    margin: 0px 70px;
+    overflow: hidden;
+}
+.top-header {
+    background-image: url(./img/joker-wallpaper.jpg) ;
     background-size:  cover;
     background-repeat: no-repeat;
     height: 70vh;
-    margin-top: -126px;
     opacity: 0.9;
-    
- 
 }
 .div1{
-    color: rgb(255, 251, 251);
-    margin-top: 8em;    
+    color: rgb(255, 251, 251);    
     padding-top: 168px;
     letter-spacing: 1px;
 }
@@ -38,69 +43,65 @@ h3{
     display: grid;
     grid-template-columns:33% 33% 33%;
     grid-row-gap: 30px;
+    grid-column-gap: 30px;
 }
 .one img {
-    width: 233px;
-    margin-left: 81px;
+    width: 340px;
 }
 .sec2{
     margin: auto;
     background-color: rgba(110, 71, 44, 0.137);
-    width: 99%;
+    width: 100%;
     grid-template-columns: auto;
     grid-gap: 40px;
 }
 .sec3{
     background-color:bisque;
     width: 100%;
-    height: 208vh;
+    height: 167vh;
 }
 .three{
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-column-gap: 8px;
+    grid-column-gap: 135px;
     grid-row-gap: 20px;
-    margin-left: 95px;
     height: 128vh;
 }
+
 .three div {
     background-color: whitesmoke;
     margin: auto;
-    height: 22vh;
-    width: 65vh;
+    height: 28vh;
+    width: 68vh;
     border-radius: 20px;
-    padding: 3vh;
+    padding: 6vh;
     font-size: 1.2rem;
 }
 .sec4{
     width: 100%;
-    margin-top:5px;
-    grid-gap: 40px;
-    
+    grid-gap: 40px;   
 }
 .four{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 58px;
     grid-template-rows: 304px;
-    margin-left: 123px;
-
+    margin-inline: 70px;
+    width: 95%;
 }
 .four div img {
-    /* height: 10vh; */
-    width: 271px;
+    width: 322px;
+    height: 32vh;
 }
 .div4{
-    margin-left: 461px;
     margin-bottom: 34px;
+    margin-left: 377px;
 }
 .div4 ul {
     align-items: center;
     list-style: none;
     display: grid;
     grid-template-columns: 12% 12% 12% 12%;
-    
-    
 }
 .div4 ul a{
     text-decoration: none;
@@ -110,17 +111,14 @@ h3{
 .div4 ul li a:hover{
     border-radius: 4px;
     background-color: aqua;
-
 }
 .sec5{
     width: 100%;
     grid-gap: 40px;
-    margin-bottom: -16px;
 }
 .sec5 div img{
     width: 12vh;
     height: 12vh;
-    margin-left: 123px;
     border-radius: 44px
 }
 .sec5 div{
@@ -132,35 +130,24 @@ h3{
     grid-gap: 12px;
 }
 .sec6{
-    background-image: url(./wall\ frame.jpg);
+    background-image: url(./img/wall\ frame.jpg);
     width: 100%;
     height: 90vh;
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
 }
-
-.sec6 div{
+.div6{
+    padding-top: 326px;
+}
+.sec6 strong{
     text-align: center;
-    margin-top: 4em;
-    padding: 337px;
+    margin-top: 12px;
     font-size: 3rem;
     color: black;
     opacity: 0.4;
     background-color: whitesmoke;
-    margin: 12px;
 }
-.sec6 button {
-    margin-top: 12px;
-    display: block;
-    text-align: center;
-    margin: auto;
-    height: 4rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-    background-color: transparent;
-}
-
 .sec7{
     width: 100%;
     grid-gap: 40px;
@@ -168,36 +155,26 @@ h3{
 .sec7 div progress{
     width: 100%;
 }
-.sec7 div button{
-    font-size: 2rem;
-    margin-top: 30px;
-    margin-left: 498px;
-    background-color: blue;
-    color: white;
-}
 .div7{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 12px;
     text-align: center;
-    margin-left: 13px;
-}
+   }
 .div7 img{
-    width: 94%;
+    width: 100%;
 }
 .sec8{
     width: 100%;
     grid-gap: 40px;
 }
 .sec8 strong{
-    margin-left: 95px;
     font-size: 27px;
 }
 .sec8 img{
-    width: 90%;
+    width: 100%;
     height: 59vh;
-    margin-left: 82px;
-}
+   }
 .sec9{
     background-color: bisque;
     padding-bottom: 30px;
@@ -207,11 +184,10 @@ h3{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 64px;
 }
 .sec9 strong{
     font-size: 2rem;
-    margin-left: 25px;
     text-transform: capitalize;
 }
 span{
@@ -222,9 +198,8 @@ span{
 .icon{
     text-align: center;
     background-color: white;
-    width: 339px;
+    width: 355px;
     margin-inline-end: 9px;
-    margin-left: 22px;
     border-radius: 3px;
 }
 .icon p{
@@ -235,39 +210,25 @@ span{
 }
 .sec10{
     width: 100%;
-    padding-top: 30px;
+    padding: 60px 0px;
     grid-gap: 40px;
     box-sizing: border-box;
     background-color: #eee;
 }
-.sec10 button{
-    text-align: center;
-    margin-left: 506px;
-    font-size: 1rem;
-    width: 22vh;
-    background-color: blue;
-    height: 6vh;
-    font-style: bold;
-    color: white;
-}
+
 .form strong{
     font-size: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 38px;
 }
 .form input{
     height: 3rem;
-    width: 92%;
+    width: 100%;
     box-sizing: border-box;
     margin-bottom: 12px;
     border-radius: 4px;
-    margin-inline-end: 54px;
-    margin-inline-start: 47px;
 }
 .inline{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-inline-end: 54px;
 }
 input::placeholder{
     color: rgb(0, 0, 0);
@@ -276,4 +237,18 @@ input::placeholder{
 .end span{
     font-size: 1rem;
     margin-left: 428px;
+}
+.btn-btn-primary{
+    margin-left: 501px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    background-color: lightblue;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn-btn-primary:hover{
+    background-color: blue;
 }
