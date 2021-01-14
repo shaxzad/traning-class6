@@ -1,0 +1,361 @@
+/* helper style starts here */
+body,
+section{
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%; */
+}
+.col {
+    display: grid;
+    grid-template-columns: 100%;
+}
+/* header style starts here */
+.top-header {
+    background-color: black;
+}
+.top-header ul {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
+    padding-left: 49px;
+}
+.top-header ul li a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: silver;
+    font-size: larger;
+    padding: 8px 12px;
+    
+}
+.top-header ul li a:hover {
+    background-color: rgb(18, 159, 241);
+    border-radius: 4px;
+}
+/* header style ends here */
+/* sec1 style starts here */
+.sec1 {
+    background-image: url(./bg/asd.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.heading {
+   padding-left: 141px;
+}
+.heading h1 {
+    font-size: 52px;
+    color: white;
+    padding-top: 140px;
+    margin: 0px;
+    font-weight: lighter;
+}
+.heading p {
+    font-size: 18px;
+    color: rgb(231, 217, 217);
+    letter-spacing: 2px;
+    line-height: 23px;
+    padding: 28px  0px;
+    margin: 0px;
+}
+.heading button {
+    padding: 4px 29px;
+    color: rgb(255, 255, 255);
+    background-color: #4e6434;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 6px;
+}
+.heading button:hover{
+    color: red;
+    background-color:rgb(90, 255, 153);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* section1 style ends here */
+/* icons style starts from here */
+.ic i {
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 51px;
+    left: 133px;
+}
+.ic::after {
+    content: " Defenders";
+    font-size: 49px;
+    color: rgb(146, 216, 238);
+    position: relative;
+    left: 138px;
+    top: 15px;
+    font-family: ' 'Lucida Lucida Sans'
+}
+.icons {
+    width: 2.8%;
+    height: 56px;
+    position: absolute;
+    left: 29px;
+    text-align: center;
+    border: rgb(255, 252, 252) 2px solid;
+    border-radius: 4px;
+}
+.icons i {
+    padding: 11px 0px;
+    color: rgb(255, 255, 255);
+}
+.icon1 {
+    width: 2.8%;
+    height: 56px;
+    position: absolute;
+    right: 29px;
+    text-align: center;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 4px;
+}
+.icon1:hover {
+      background-color: rgb(75, 248, 162);
+}
+.icons:hover {
+    background-color: springgreen;
+    color: red;
+}
+.icon1 i {
+    padding: 11px 0px;
+    color: rgb(255, 255, 255);
+}
+/* icons style ends here */
+/* section 2 style starts here */
+.sec2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 190vh;
+}
+.Div-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 100px 190px;
+}
+.box1 {
+    background-color: rgb(82, 71, 71);
+    width: 170px;
+    height: 210px;
+    border: solid 8px rgba(198, 224, 231, 0.787);
+    border-radius: 6px;
+    color: rgb(13, 204, 252);
+    text-align: center;
+    padding-top: 48px;
+}
+.box1 span {
+    font-size: 34px;
+    padding-top: 89px;
+    color: rgb(184, 184, 181);
+}
+.heading-2 h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin: 0px;
+}
+.heading-2 p {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 24px;
+    font-weight: bold;
+    color: rgb(87, 72, 72);
+}
+/* pics style starts here */
+.pics{
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    padding-left: 300px;
+    padding-top: 23px;
+    opacity: 0.9;
+}
+.pics span {
+    font-size: 27px;
+}
+/* pics style ends here */
+/* section 3 style starts here */
+.sec3 {
+    margin: 0px;
+    padding: 0px;
+}
+.bg {
+    background-image: url(./kits/depositphotos_112680236-stock-photo-soccerball-at-the-stadium.jpg);
+    width: 100%;
+    height: 140vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9;
+}
+.box2 h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 94px;
+    margin: 0px;
+}
+.box2 P {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:13px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.boxes {
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% ;
+    grid-column-gap: 50px;
+    padding-left: 100px;
+    padding-top: 63px;
+}
+.box3 {
+    background-color: white;
+    width: 250px;
+    height: 490px;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 22px;
+}
+.box3 p{
+    font-size: 28px;
+}
+.box3 button:hover{
+    width: 165px;
+    padding: 9px;
+    font-size: larger;
+    border: 3px rgb(97, 97, 97) solid;
+    border-radius: 4px; background-color:springgreen;
+}
+/* sec3 style ends here */
+/* sec4 style starts from here */
+.sec4 {
+    background-color: rgb(101, 206, 255);
+    width: 100%;
+    height: 160vh;
+}
+.meet-our h1{
+    font-size: 68px;
+    color: rgb(14, 13, 13);
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 74px;
+    margin: 0px
+}
+.meet-our p{
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(87, 72, 72);
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 22px;
+}
+.players {
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% ;
+    grid-column-gap: 56.5px;
+    padding-left: 85px;
+    padding-top: 73px;
+}
+.box4 {
+    background-color: rgb(49, 36, 36);
+    width: 240px;
+    height: 440px;
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 9px;
+}
+.box4 img {
+    border: chartreuse solid 4px;
+    border-radius: 222px;
+}
+.box4 p{
+    font-size: 33px;
+    color: white;
+    font-weight: lighter;
+}
+.box4 p::before {
+    content:"2";
+    color: white;
+    font-size: 53px;
+}
+.partners {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+.head-last h1{
+    text-align: center;
+    font-size: 68px;
+    color: rgb(14, 13, 13);
+    font-weight: lighter;
+    /* margin-top: 153px; */
+    padding-top: 156px;
+}
+.head-last p{
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 42px;
+    font-weight: bold;
+    color: rgb(87, 72, 72);
+}
+.brands {
+    display: grid;
+    grid-template-columns: 20%  20% 20% 20% ;
+    grid-column-gap: 43px;
+    margin-left: 170px;
+    margin-top: 114px;
+}
+.brands img{
+    border-radius: 33px;
+}
+.social {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 98px;
+    margin-left: 350px;
+    grid-column-gap: 33px;
+}
+.box5 {
+   background-color: rgb(95, 73, 73);
+   width: 140px;
+   height: 200px;
+   border: 1px solid rgb(255, 255, 255);
+   margin-top: 66px;
+   border-radius: 9px;
+}
+.box5 i {
+    text-align: center;
+    color: rgb(68, 181, 233);
+    padding-left: 46px;
+    padding-top: 75px;
+}
+.last-item {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 55px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.last-item::after {
+   content: "Defenders FC All Rights Reserved 2021";
+   font-size: 25px;
+   padding-left: 5px;
+}
+/* sec4 style ends here */
