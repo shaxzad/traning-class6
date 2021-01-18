@@ -133,22 +133,16 @@ a:hover{
 .location{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-left: 121px;
-    margin-top: 80px;
     height: 130px;
     border: solid 2px grey;
-    margin-right: 121px;
     border-left: none;
     border-right: none;
     padding-top: 9px;
+    margin-top: 20px;
     /* text-align: center; */
     color: ghostwhite;
-}
-.location .box-item{
-    /* border: 1px solid black; */
-    width: 350px;
 }
 .news{
     margin-top: 75px;
@@ -168,24 +162,28 @@ a:hover{
 }
 
 .follow-us{
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    margin-left: 454px;
-    margin-top: 30px;
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
     font-size: 12mm;
-    column-gap: 40px;
     opacity: 0.5;
     /* -webkit-filter: blur(.5px);  */
     /* filter: blur(5px); */
 }
 .footer{
-    /* margin: auto; */
-    margin-left: 452px;
+    display: flex;
+    flex-direction: row;
     color: ghostwhite;
+    justify-content: center;
+    font-weight: 900;
 }
 .marker-third:hover{
     cursor: grab;
-    text-transform: capitalize;
+    text-transform: uppercase;
     outline: blanchedalmond 2px solid;
     outline-offset: 5px ;
     /* background-color: blueviolet; */
