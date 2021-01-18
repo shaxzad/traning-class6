@@ -1,16 +1,15 @@
 body{
     background-color:gold ;
 }
-.head::before{
+.container h3::before{
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
     content: "\f07a";
-    font-size: 11mm;
+    font-size: 09mm;
 }
-.head:hover{
-    margin-top: 5px;
-    margin-left: 25px;
-    font-size: 08mm;
+.container h3:hover{
+    padding-left: 50px;
+    font-size: 06mm;
     cursor: grabbing;
     opacity: 0.5;
 }
@@ -28,11 +27,10 @@ body{
     display: flex;
     list-style-type: none;
     flex-wrap: nowrap;
-    padding: 0px 10px;
 }
 .container ul li a{
     padding: 0px 10px;
-    flex: 1  330px;
+    flex-basis: 220px;
 }
 .container li a{
     text-decoration: none;
@@ -139,10 +137,12 @@ a:hover{
     border: solid 2px grey;
     border-left: none;
     border-right: none;
-    padding-top: 9px;
-    margin-top: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
     /* text-align: center; */
     color: ghostwhite;
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
 }
 .news{
     margin-top: 75px;
