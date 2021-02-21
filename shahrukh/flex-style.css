@@ -1,0 +1,34 @@
+body{
+    background-color: cadetblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div{
+    display: inherit;
+    background-color: brown;
+    height: 300px;
+    flex-basis: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    align-items: flex-end;
+    justify-content: center; 
+}
+.box-inner-1{
+    background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    justify-items;: center
+
+}
+.box-inner-2{
+    flex: 2;
+}
+.box-inner-3
+.box-inner-4
+.box-inner-5
+.box-inner-6

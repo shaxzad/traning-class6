@@ -1,0 +1,193 @@
+body{
+    background-color:gold ;
+}
+.container h3::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f07a";
+    font-size: 09mm;
+}
+.container h3:hover{
+    padding-left: 50px;
+    font-size: 06mm;
+    cursor: grabbing;
+    opacity: 0.5;
+}
+.menu::after{
+    content: "\f063";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 50;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.container ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+.container ul li a{
+    padding: 0px 10px;
+    flex-basis: 220px;
+}
+.container li a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 5mm;
+    flex-grow: 1;
+}
+
+a:hover{
+    font-size: 18px;
+    transition: all ease-in .1s;
+    padding: 15px 15px;
+    border-radius: 9px;
+    background-color: rgba(248, 248, 255, 0.336)
+   
+}
+.image-body{
+    border: 2px #1d1d1f solid;
+    background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    margin: auto;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: ghostwhite;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.image-body:hover{
+    -webkit-filter: blur(2px);
+    filter:blur(2px);
+}
+.image-body h1 {
+    margin-left: 120px;
+    margin-top: 200px;
+    display: inline-block;
+
+}
+.image-body ul {
+    height: 200px;
+   display: flex;
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 208px;
+    
+}
+.image-body div {
+    display: inline;
+}
+.image-body a{
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 0px 12px;
+
+}
+.image-body a::after{
+    content: "/";
+    font-size:8mm;
+}
+.content-table{
+    margin: auto;
+    margin-top: 110px;
+    width: 73.007%;
+    display: grid;
+    grid-template-rows: repeat(8 , auto);
+    border-collapse: collapse;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.795) ;
+}
+.content-table input{
+    width: 83px;
+}
+.content-table tr th { 
+    border: 2px black solid;
+    background-color: black;
+    color: ghostwhite;
+    width: 20%;
+
+}
+.content-table button{
+    background-color: black;
+    color: ghostwhite;
+    float: right;
+    margin-right: 02px;
+    font-weight: .5;
+}
+.marker{
+    margin-right: 186px;
+    margin-top: 09px;
+    float: right;
+}
+.marker-even:hover{
+    outline: blanchedalmond 2px solid;
+}
+.marker-even{
+    background-color: black;
+    color: ghostwhite;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    border: solid 2px grey;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    margin-top: 30px;
+    /* text-align: center; */
+    color: ghostwhite;
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
+}
+.news{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: ghostwhite;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.marker-third{
+    width: 97%;
+    font-size: 3.8mm;
+}
+
+.follow-us{
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    font-size: 12mm;
+    opacity: 0.5;
+    /* -webkit-filter: blur(.5px);  */
+    /* filter: blur(5px); */
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: ghostwhite;
+    justify-content: center;
+    font-weight: 900;
+}
+.marker-third:hover{
+    cursor: grab;
+    text-transform: uppercase;
+    outline: blanchedalmond 2px solid;
+    outline-offset: 5px ;
+    /* background-color: blueviolet; */
+}
+.marker-third:focus{
+    background-color: blueviolet;
+}

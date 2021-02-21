@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(209, 220, 224);
+}
+.head::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f007";
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-gap: 450px;
+   margin-bottom: 0px;
+}
+.container strong{
+    margin: auto;
+}
+
+.container ul{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    list-style-type: none;
+    align-content: space-around;
+    grid-gap: 20px; 
+}   
+
+a:hover{
+    background-color: rgba(9, 124, 139, 0.39);
+    font-size: 18px;
+    transition: all ease-in-out 2s;
+    padding: 15px 15px;
+    border-radius: 9px;
+   
+}
+.image1{
+    background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    margin: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    color: ghostwhite;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.table0{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    
+}
+.table0 tr th{ 
+    border: 2px black solid;
+    background-color: black;
+    color: ghostwhite;
+}
+.div3{
+    display: grid;
+    grid-template-rows: 100px;
+    justify-content: center;
+}
+.divv{
+    width: 150px;
+    margin-left: 155px;
+}
